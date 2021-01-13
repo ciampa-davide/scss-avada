@@ -6,12 +6,10 @@
 
 .container {
   display: flex;
+  position: relative;
   width: 100%;
-  height: 1000px;
-}
-
-.container ul {
-  align-items: flex-end;
+  height: 900px;
+  background-color: black;
 }
 
 .container img {
@@ -20,7 +18,106 @@
   margin-top: 35px;
 }
 
+ul {
+  display: inline;
+  list-style: none;
+  margin-left: 35%;
+  margin-top: 55px;
+}
+
 ul li {
+  display: inline;
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn_yellow {
+  border: 1px solid #fcd66c;
+  background-color: #fcd66c;
+  padding: 10px;
+}
+
+.containerTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.containerTitle h1 {
+  font-size: 45px;
+}
+
+.containerTitle p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.containerTitle a {
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.btn_yellowBorder {
+  border: 2px solid #fcd66c;
+  color: #fcd66c;
+}
+
+.btn_whiteBorder {
+  border: 2px solid white;
+  color: white;
+}
+
+.moment {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.count {
+  width: 70%;
+  padding-top: 100px;
+  padding-left: 65px;
+}
+
+span {
   display: inline-block;
-  margin-right: 70px;
+  width: 150px;
+  height: 1px;
+  margin-bottom: 5px;
+  border: 2px solid #fcd66c;
+}
+
+.count p {
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.last_p {
+  margin-bottom: 30px;
+}
+
+.count a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.statics {
+  width: calc(100% - 70%);
+  text-align: center;
+  padding-top: 100px;
+}
+
+.statics div {
+  margin-top: 10%;
 }
